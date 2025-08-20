@@ -1,3 +1,18 @@
+"""
+=========================================================
+ Developed and written by: Angkush Kumar Ghosh
+ Contact: ghosh-ak@mail.kitami-it.ac.jp
+=========================================================
+ Related Work:
+ https://www.preprints.org/manuscript/202507.0713/v1
+=========================================================
+ Description:
+ This script was developed as part of research on
+ bioinspired computing (DBC + ANN) for pattern recognition
+ in smart manufacturing applications.
+=========================================================
+"""
+
 import tkinter as tk
 from tkinter import filedialog, messagebox
 import matplotlib.pyplot as plt
@@ -1067,5 +1082,6 @@ protein_text_area.config(yscrollcommand=protein_scrollbar.set)
 
 export_button = tk.Button(right_frame, text="Export Results", font=custom_font, command=export_results)
 export_button.pack(pady=10)
+
 
 root.mainloop()
